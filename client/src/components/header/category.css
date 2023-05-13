@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    height: 112.2px;
+    background-color: #fff;
+}
+.sam{
+    margin-top: -40px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+.items{
+    /* display: flex; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.lists{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#photo{
+    height: 100px;
+    width: 120px;
+    object-fit: cover;
+    cursor: pointer;
+}
+#catName{
+    font-weight: 600;
+    cursor: pointer;
+}
+#catName:hover{
+    color: blue;
+}

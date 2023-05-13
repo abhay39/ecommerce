@@ -1,0 +1,148 @@
+.container{
+    width: 100%;
+}
+.top-cont{
+    background-color: #2874f0;
+    height: 60px;
+    color: white;
+
+}
+.items{
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    min-height: 50px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+#join{
+    min-height: 50px;
+    margin-top: -5px;
+    font-style: italic;
+    color: #ffe500;
+    font-size: 14px;
+}
+#join:hover{
+    min-height: 50px;
+    margin-top: -5px;
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+    color: #ffe500;
+}
+.search{
+    margin-top: 10px;
+    width: 540px;
+    min-width: 320px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 30px;
+    padding: 5px;
+}
+#searchIcon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+#se{
+    margin-left: 20px;
+    border: none;
+    min-width: 280px;
+    font-size: 16px;
+
+}
+#se:focus{
+    outline: none;
+}
+#loginbtn{
+    margin-left: 20px;
+    border: none;
+    height: 35px;
+    text-decoration: none;
+    margin-top: 12px;
+    min-width: 100px;
+    font-size: 18px;
+    color: #2874f0;
+    padding: 5px;
+    cursor: pointer;
+}
+#link{
+    color: white;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+#optiosn{
+    padding: 5px;
+}
+button{
+    border:none;
+    margin-top: 8px;
+    border-radius:5px;
+    padding:10px 20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+background-color:#ddd;
+}
+
+.dropdown-options {
+display: none;
+position: absolute;
+overflow: auto;
+background-color:#fff;
+border-radius:5px;
+box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-options {
+display: block;
+}
+
+.dropdown-options a {
+display: block;
+color: #000000;
+padding: 5px;
+text-decoration: none;
+padding:20px 40px;
+}
+
+.dropdown-options a:hover {
+color: #0a0a23;
+background-color: #ddd;
+border-radius:5px;
+}
+.more{
+    margin-left: 20px;
+    border: none;
+    height: 35px;
+    margin-top: 15px;
+    min-width: 100px;
+}
+select{
+    font-size: 16px;
+    color: #2874f0;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+.cart{
+    margin-top: -35px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+}

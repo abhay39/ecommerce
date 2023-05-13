@@ -1,0 +1,23 @@
+.mainC{
+    padding: 10px;
+}
+.topp{
+    position: sticky;
+    top: 0px;
+}
+.imgBOX{
+    width: 500px;
+    height: 500px;
+}
+#pp{
+    width: 100%;
+    height: 500px;
+}
+.supButton{
+    display: flex;
+    width: 350px;
+    justify-content: space-evenly;
+}
+.ppd{
+    display: flex;
+}
